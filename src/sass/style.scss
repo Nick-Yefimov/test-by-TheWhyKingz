@@ -1,0 +1,24 @@
+@import 'base/animation';
+@import 'libs/fonts';
+@import 'base/variables';
+
+@import 'blocks/bet';
+@import 'blocks/header';
+@import 'blocks/email';
+@import 'blocks/buttons';
+@import 'blocks/slider';
+
+
+
+body {
+    background: #293B2B;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fans {
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+@keyframes blick {
+    0% {
+    transform: translate(-100%, -25%) rotate(10deg);
+    }
+    20% {
+    transform: translate(100%, -25%) rotate(10deg);
+    }
+    100% {
+    transform: translate(100%, -25%) rotate(10deg);
+    }
+}   

@@ -1,0 +1,26 @@
+.bet {
+    &__descr {
+        margin-top: -575px;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 43px;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+    &__title {
+        padding-left: 370px;
+        &-mid {
+            padding-left: 445px;
+        }
+    }
+    &__subtitle {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 900;
+        padding-left: 370px;
+        font-size: 56px;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+}

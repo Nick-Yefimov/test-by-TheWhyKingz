@@ -1,0 +1,69 @@
+.header {
+    position: relative;
+    display: flex;
+    max-width: 1920px;
+    height: 60px;
+    background: linear-gradient(0deg, rgba(22, 26, 22, 0) -37.5%, #161A16 68%);
+    &__logo {
+        position: absolute;
+        padding: 17px 0 17px 370px;
+    }
+    &__wrapper {
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+    }
+    &__login {
+        padding: 0 19px 0 1335px;
+        margin-top: 20px;
+        display: flex;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    &__btn {
+        margin-top: 15px;
+        width: 130px;
+        height: 30px;
+        background: $main-green;
+        border-radius: 397px;
+        color: #fff;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    &__block {
+        z-index: 1;
+        position: absolute;
+        left: 1335px;
+        bottom: 748px;
+        width: 215px;
+        height: 86px;
+        background: #FFFFFF;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+        border-radius: 0px 0px 25.8px 25.8px;
+    }
+    &__deposito {
+        margin-top: 14px;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+        color: #293B2B;
+        &-big {
+            font-style: italic;
+            font-weight: 900;
+            font-size: 28px;
+            text-align: center;   
+            color: #293B2B;
+        }
+    }
+}

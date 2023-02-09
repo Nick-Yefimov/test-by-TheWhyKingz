@@ -1,0 +1,33 @@
+.slider {
+    max-width: 1920px;
+    position: relative;
+    overflow: hidden;
+    &__line {
+        display: flex;
+        transition: all 1s;
+        overflow: hidden;
+    }
+    &__slide {
+        margin-top: -40px;
+    }
+    &__wrapper {
+        display: flex;
+        column-gap: 10px;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__dot {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #fff;
+        &:hover {
+            background-color: pink;
+        }
+    }
+}
+
+.active {
+    background-color: pink;
+}
