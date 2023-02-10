@@ -5,7 +5,7 @@
         font-style: italic;
         font-weight: 900;
         font-size: 43px;
-        color: #FFFFFF;
+        color: $white-color;
         text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
     }
     &__title {
@@ -20,7 +20,7 @@
         font-weight: 900;
         padding-left: 370px;
         font-size: 56px;
-        color: #FFFFFF;
+        color: $white-color;
         text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
     }
 }

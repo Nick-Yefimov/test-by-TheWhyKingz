@@ -11,29 +11,64 @@
 
    <section class="bet">
             <header class="header">
-                <img src="img/Logo.png" alt="logo" class="header__logo">
+                <picture>
+                    <source srcset="img/mobile/logomobile.png" media="(max-width: 1025px)">
+                    <img src="img/Logo.png" alt="logo" class="header__logo">
+                </picture>
                 <div class="header__wrapper">
                     <p class="header__login">Acceder</p>
                     <button class="header__btn">
                     Regístrate
                     </button>
+                    <div class="header__block">
+                        <p class="header__deposito">Deposito minimo</p>
+                        <p class="header__deposito header__big">500 MXN</p>   
+                    </div>
                 </div>
             </header>
    </section>
 
-    <div class="header__block">
-        <p class="header__deposito">Deposito minimo</p>
-        <p class="header__deposito-big">500 MXN</p>   
-    </div>
-
     
+
     <div class="slider">
         <div class="slider__line">
             <div class="slider__slide">
-                <img src="img/banner1.png" alt="fans" class="slider__img">
+                <picture>
+                    <source srcset="img/mobile/fansmobile.png" media="(max-width: 1025px)">
+                   <img src="img/fans.png" alt="fans" class="slider__img">
+                </picture>
+                <div class="slider__title">
+                    <p class="slider__descr">Bono de primer</p>
+                    <p class="slider__descr slider__mid">depósito hasta</p>
+                    <p class="slider__descr slider__big">40 000 MXN</p>
+                </div>
+                <div class="slider__subtitle football slider__mobile">
+                    <p class="slider__text slider__mobile">
+                        COMBOBOOST hasta el 100%<br class="slider__mobile"> en apuestas combinadas
+                    </p>
+                </div>
+                <div class="slider__mainbtn slider__mobile">
+                    <button class="slider__btn slider__fan">Regístrate</button>
+                </div>
             </div>
             <div class="slider__slide">
-                <img src="img/banner2.png" alt="girl" class="slider__img">
+                <picture>
+                        <source srcset="img/mobile/girlmobile.png" media="(max-width: 1025px)">
+                       <img src="img/girl.png" alt="girl" class="slider__img">
+                </picture>
+                <div class="slider__title">
+                    <p class="slider__descr">Bono de primer</p>
+                    <p class="slider__descr slider__mid">depósito hasta</p>
+                    <p class="slider__descr slider__big">40 000 MXN</p>
+                </div>
+                <div class="slider__subtitle">
+                    <p class="slider__text">
+                        Reembolso del 500%<br class="mobile"> en apuestas deportivas
+                    </p>
+                </div>
+                <div class="slider__mainbtn">
+                    <button class="slider__btn">Regístrate</button>
+                </div>
             </div>
         </div>
         
@@ -43,21 +78,20 @@
         </div>
     </div>
 
-    <div class="bet__descr">
-        <p class="bet__title">Bono de primer</p>
-        <p class="bet__title-mid">depósito hasta</p>
-        <p class="bet__subtitle">40 000 MXN</p>
-    </div>
 
    <section class="email">
         <div class="email__wrapper">
             <img src="img/Logo.png" alt="logo" class="email__logo">
             <button class="email__btn">Suscríbete</button>
-            <input type="text" class="email__adress">
+            <input type="text" value="Correo electronico"  class="email__adress">
         </div>
 
         <footer>
-            <img src="img/payment systems.png" alt="payment" class="payment">
+            <picture>
+                <source srcset="img/mobile/paymentmobile.png" media="(max-width: 1025px)">
+                <img src="img/payment systems.png" alt="payment" class="payment">
+            </picture>
+                <img src="img/logo.png" alt="logo" class="mobile__logo"">
         </footer>
    </section>
 

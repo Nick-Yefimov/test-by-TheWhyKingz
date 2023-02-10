@@ -8,7 +8,7 @@
         overflow: hidden;
     }
     &__slide {
-        margin-top: -40px;
+        min-height: 720px;
     }
     &__wrapper {
         display: flex;
@@ -19,15 +19,60 @@
         transform: translateX(-50%);
     }
     &__dot {
-        width: 16px;
-        height: 16px;
-        border: 1px solid #fff;
+        width: 10px;
+        height: 10px;
+        background: #D9D9D9;
+        border-radius: 1010px;
         &:hover {
-            background-color: pink;
+            background: $main-green;            ;
         }
+    }
+    &__btn {
+        display: inline-block;
+        width: 430px;
+        height: 80px;
+        border-radius: 100px;
+        text-align: center;
+        color: $white-color;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 36px;
+        margin: 29px 0 0 367px;
+
+    }
+    &__title {
+        margin: -590px 0 62px 376px;
+    }
+    &__descr {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 43px;
+        color: $white-color;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+    &__mid {
+        margin-left: 65px;
+    }
+    &__big {
+        font-size: 56px;
+    }
+    &__subtitle {
+        margin: 62px 0 29px 370px;
+    }
+    &__text {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 32px;
+        color: $white-color;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+    &__mobile {
+        display: none;
     }
 }
 
 .active {
-    background-color: pink;
+    background: $main-green;
 }
+
