@@ -1,0 +1,46 @@
+.info {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    &__title {
+        position: absolute;
+        margin: 83px 0 0 370px;
+    }
+    &__subtitle {
+        position: absolute;
+        margin: 314px 0 0 370px;
+    }
+    &__descr {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 900;
+        font-size: 43px;
+        color: $white-color;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+    &__mid {
+        margin-left: 56px;
+    }
+    &__big {
+        font-size: 56px;
+    }
+    &__btn {
+        margin: 457px 0 0 367px;
+        position: absolute;
+        width: 430px;
+        height: 80px;
+        border-radius: 100px;
+        text-align: center;
+        color: $white-color;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 36px;
+    }
+    &__text {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 32px;
+        color: $white-color;
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+    }
+}

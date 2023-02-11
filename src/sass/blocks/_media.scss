@@ -28,7 +28,7 @@
             width: 1024px;
         }
         &__logo {
-            padding: 11px 0 11px 352px;
+            padding: 11px 0 11px 302px;
             img {
                 width: 70.38px;
                 height: 18px;
@@ -42,11 +42,11 @@
             font-size: 10px;
             width: 86.67px;
             height: 22px;
-            margin: 11px 585px;
+            margin: 11px 520px;
         }
         &__block {
             top: 40px;
-            left: 405px;
+            left: 345px;
             width: 211px;
             height: 26px;
         }
@@ -59,10 +59,16 @@
             font-size: 12px;
         }
     }
-    .slider {
-        position: relative;
-        &__slide {
-        height: 800px;
+
+    .info {
+        &__title {
+            margin: 50px 0 0 401px;
+        }
+        &__subtitle {
+            margin: 167px 0 0 398px;
+        }
+        &__text {
+            font-size: 15px;
         }
         &__descr {
             font-size: 24px;
@@ -70,50 +76,29 @@
         &__big {
             font-size: 31px;
         }
-        &__mid {
-            margin-left: 35px;
+        &__mobile {
+            display: none;
         }
-        &__title {
-            position: absolute;
-            top: 0;
-            padding: 0;
-            margin: 50px 0 0 472px;
+        &__btn {
+            margin: 213px 0 0 377px;    
+            width: 269px;
+            height: 50px;
+            font-size: 22px;
         }
-        &__subtitle {
-            top: 0;
-            position: absolute;
-            padding: 0;
-            margin: 167px 0 0 472px;
+    }
+
+    .slider {
+        position: relative;
+        &__slide {
+        height: 800px;
         }
         &__img {
             height: 800px;
-        }
-        &__btn {
-            width: 269px;
-            height: 55px;
-            font-size: 22px;
-            top: 0;
-            position: absolute;
-            margin: 230px 0 0 405px;
-
-        }
-        &__fan {
-            margin: 230px 0 0 410px;
-        }
-        &__text {
-            font-size: 15px;
-            top: 0;
-            position: absolute;
-            margin: -26px 0 0 51px;
         }
         &__mobile {
             display: block;    
             margin: 170px 0 0 86px;
         }
-    }
-
-    .football {
-        margin: 170px 0 29px 450px;
     }
 
     .email {
@@ -127,7 +112,7 @@
         }
         &__btn {
             height: 35px;
-            width: 398px;
+            width: 423px;
             font-size: 12px;
             padding-right: 68px;
         }
@@ -163,29 +148,19 @@
             left: 260px;
         }
     }
-    .slider {
+
+    .info {
         &__title {
-            margin: 50px 0 0 335px;
+            margin: 50px 0 0 325px;
         }
         &__subtitle {
-            margin: 259px 0 29px 344px;
-        }
-        &__text {    
-            margin: -107px 0 0 23px;
-        }
-        &__mobile {
-            margin: 82px 0 0 180px;
-            position: absolute;
-            top: 0;
-            left: 0;
+            margin: 160px 0 0 323px;
         }
         &__btn {
-            margin: 258px 0 0 290px;
-        }
-        &__fan {
-            margin: 240px 0 0 275px;
+            margin: 225px 0 0 275px;
         }
     }
+
     .mobile__logo {
         right: 325px;
     }
@@ -204,38 +179,40 @@
             margin: 11px 250px;
         }
         &__block {
-            margin-left: -1000px;
+            left: 85px;
+        }
+    }
+    .info {
+        &__title {
+            margin: 40px 0 0 150px;
+        }
+        &__subtitle {
+            margin: 140px 0 0 150px;
+        }
+        &__btn {
+            margin: 200px 0 0 100px;
         }
     }
     .slider {
-        &__title {
-            margin-left: 130px;
-        }
-        &__subtitle {
-            margin-left: 130px;
-        }
-        &__btn {
-            margin-left: 78px;
-        }
-        &__fan {
-            margin-left: 55px;
-        }
-        &__mobile {
-            margin: 82px 0 0 81px;
+        &__slide {
+            height: auto;
         }
     }
+
     .email {
         &__wrapper {
             margin-right: 90px;
         }
         &__adress {
             width: 145px;
+            font-size: 10px;
         }
         &__btn {
             margin-top: 90px;
             width: 145px;
             height: 30px;
-            padding-left: 70px;
+            font-size: 10px;
+            padding-left: 90px;
         }
     }
     .mobile__logo {
