@@ -47,6 +47,7 @@ const sliderImages = document.querySelectorAll('.slider__img'),
         sliderDots[index].classList.add('active');
     }
 
+
     function handleDotsClick() {   
         sliderDots.forEach((dot, index) => {
             dot.addEventListener('click', () => {
