@@ -5,7 +5,7 @@ const sliderImages = document.querySelectorAll('.slider__img'),
 
     let currentSlide = 0;
 
-    const intervalTime = 5000;
+    const intervalTime = 1000000;
 
     let sliderCount = 0,
         sliderWidth;

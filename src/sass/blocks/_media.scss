@@ -1,25 +1,3 @@
-@media(max-width: 1441px) {
-    .header {
-        &__login {
-            padding: 0px;
-        }
-        &__block {
-            left: 0px;
-        }
-    }
-    .slider {
-        &__title {
-            margin: -460px 0 62px 310px;
-        }
-        &__subtitle {
-            margin: 62px 0 29px 310px;
-        }
-        &__btn {
-            margin: 29px 0 0 307px;
-        }
-    }
-}
-
 @media(max-width: 1025px) {
     .header {
         height: 40px;
@@ -70,8 +48,14 @@
         &__subtitle {
             margin: 167px 0 0 398px;
         }
+        &__subgirl {
+            margin: 167px 0 0 420px;
+        }
         &__text {
             font-size: 15px;
+        }
+        &__girltxt {
+            margin-left: 10px;
         }
         &__combinadas {
             margin-left: 20px;
