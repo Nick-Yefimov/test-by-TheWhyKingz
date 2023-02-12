@@ -67,12 +67,13 @@
         font-size: 20px;
         text-align: center;
         color: #293B2B;
-        &-big {
-            font-style: italic;
-            font-weight: 900;
-            font-size: 28px;
-            text-align: center;   
-            color: #293B2B;
-        }
+    }
+    &__big {
+        margin-top: 0;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 28px;
+        text-align: center;   
+        color: #293B2B;
     }
 }

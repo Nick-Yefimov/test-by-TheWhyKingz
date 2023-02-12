@@ -33,7 +33,6 @@ const sliderImages = document.querySelectorAll('.slider__img'),
         sliderLine.style.width = sliderWidth * sliderImages.length + 'px';
         sliderImages.forEach(slide => slide.style.width = sliderWidth + 'px');
         setTransformStyleToSlide();
-        setIntervalToSlider();
     }
 
 
@@ -58,7 +57,7 @@ const sliderImages = document.querySelectorAll('.slider__img'),
         })
     }
 
-
+    setIntervalToSlider();
     initSlider();
     handleDotsClick();
     

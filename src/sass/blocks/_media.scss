@@ -51,11 +51,14 @@
             height: 26px;
         }
         &__deposito {
+            display: inline;
             text-align: center;
-            margin: 0;
+            margin: 5px 0 0 32px;
             font-size: 10px;
         }
         &__big {
+            margin: 0;
+            display: inline;
             font-size: 12px;
         }
     }
@@ -187,13 +190,13 @@
     }
     .info {
         &__title {
-            margin: 40px 0 0 150px;
+            margin: 40px 0 0 125px;
         }
         &__subtitle {
-            margin: 140px 0 0 150px;
+            margin: 140px 0 0 123px;
         }
         &__btn {
-            margin: 200px 0 0 100px;
+            margin: 200px 0 0 95px;
         }
     }
     .slider {
