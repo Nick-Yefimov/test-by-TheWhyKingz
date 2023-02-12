@@ -100,6 +100,9 @@
             height: 30px;
             font-size: 12px;
         }
+        ::placeholder {
+            font-size: 12px;
+        }
         &__btn {
             height: 35px;
             width: 423px;

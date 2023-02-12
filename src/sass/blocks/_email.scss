@@ -26,6 +26,9 @@
         color: #D9D9D9;
         padding-left: 24px;
     }
+    ::placeholder {
+        font-size: 17px;
+    }
     &__btn {
         margin-left: 171px;
         display: inline-block;
