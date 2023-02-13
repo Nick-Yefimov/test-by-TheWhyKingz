@@ -1,3 +1,36 @@
+@media(max-width: 1441px) {
+    .header {
+        &__logo {
+            padding: 17px 200px 0;
+        }
+        &__wrapper {
+            padding: 0 30px 0 0;
+        }
+    }
+    .info {
+        &__title {
+            margin: 83px 0 0 45px;
+        }
+        &__subtitle {
+            margin: 314px 0 0 80px;
+        }
+        &__btn {
+            margin: 457px 0 0 45px;
+        }
+    }
+    .email {
+        &__adress {
+            width: 600px;
+        }
+        &__btn {
+            width: 800px;
+        }
+        &__logo {
+            padding-right: 830px;
+        }
+    }
+}
+
 @media(max-width: 1025px) {
     .header {
         height: 40px;
@@ -211,4 +244,78 @@
     .mobile__logo {
         right: 160px;
     }
+}
+
+@media(max-width: 376px) {
+    .header {
+        &__wrapper {
+            width: 375px;
+        }
+        &__btn {
+            margin: 11px 220px;
+        }
+        &__logo {
+            padding: 11px 20px;
+        }
+        &__block {
+            left: 50px;
+        }
+    }
+    .info {
+        &__title {
+            margin: 40px 0 0 95px;
+        }
+        &__subtitle {
+            margin: 155px 0 0 90px;
+        }
+        &__subgirl {
+            margin: 155px 0 0 111px;
+        }
+        &__btn {
+            margin: 200px  0 0 60px;
+        }
+    }
+
+    .slider {
+        &__img {
+            width: 375px;
+            height: 650px;
+        }
+    };
+
+    .mobile__logo {
+        right: 125px;
+    }
+}
+
+@media(max-width: 321px) {
+    .header {
+        &__logo {
+            padding: 11px 0;
+        }
+        &__btn {
+            margin: 11px 165px;
+        }
+        &__block {
+            left: 25px;
+        }
+    }
+    .info {
+        &__title {
+            margin: 40px 0 0 70px;
+        }
+        &__subtitle {
+            margin: 155px 0 0 68px;
+        }
+        &__subgirl {
+            margin: 155px 0 0 88px;
+        }
+        &__btn {
+            margin: 200px 0 0 38px;
+        }
+    }
+    .mobile__logo {
+        right: 105px;
+    }
+    
 }
